@@ -1,6 +1,7 @@
-const tgl = document.querySelector(".navbar__tgl");
-const menu = document.querySelector(".navbar__menu");
+const menu = document.querySelector("#menu-bars");
+const navbar = document.querySelector(".navbar");
 
-tgl.addEventListener("click", () => {
-  menu.classList.toggle("active");
-});
+menu.onclick = () => {
+  menu.classList.toggle("fa-times");
+  navbar.classList.toggle("active");
+};
