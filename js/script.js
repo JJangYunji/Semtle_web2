@@ -36,13 +36,13 @@ var swiper = new Swiper(".book-box", {
   spaceBetween: 20,
   breakpoints: {
     0: {
-      slidesPerView: 3.3,
+      slidesPerView: 2.3,
     },
     640: {
-      slidesPerView: 3.3,
+      slidesPerView: 2.3,
     },
     768: {
-      slidesPerView: 3.3,
+      slidesPerView: 2.3,
     },
     1024: {
       slidesPerView: 8,
