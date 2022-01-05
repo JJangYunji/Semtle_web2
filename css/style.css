@@ -27,9 +27,12 @@ body {
   --color-hover: #edf0f5;
   --color-text: #151426;
 
+  --gray: #eeeeee;
+  --purple: #a69fef;
+
   --border: 1px solid rgba(0, 0, 0, 0.2);
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  --box--shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  --box--shadow: 0 7px 7px rgba(0, 0, 0, 0.05);
 }
 
 header {
@@ -57,6 +60,7 @@ header .navbar a {
   border-radius: 5px;
   padding: 10px 14px;
   color: var(--color-text);
+  display: flex;
 }
 
 header .navbar a:hover {
@@ -83,7 +87,7 @@ header .icons {
 .home {
   width: 100vw;
   height: 400px;
-  background-color: #efeef3;
+  background-color: var(--gray);
   margin-bottom: 20px;
 }
 
@@ -93,14 +97,24 @@ header .icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.calender .calender-subject {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 15px;
 }
 
 .calender .calender-box {
   width: 90%;
-  height: 90%;
-  background-color: #efeef3;
+  height: 80%;
+  background-color: var(--gray);
   border-radius: 25px;
+  box-shadow: var(--box--shadow);
 }
 
 .notice,
@@ -110,15 +124,33 @@ header .icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+.notice .notice-subject {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.book .book-subject {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 15px;
 }
 
 .notice .notice-box,
 .book .book-box {
   width: 90%;
-  height: 90%;
-  background-color: #efeef3;
+  height: 80%;
+  background-color: var(--gray);
   border-radius: 25px;
+  box-shadow: var(--box--shadow);
 }
 
 .footer {
@@ -138,6 +170,7 @@ header .icons {
     right: 0;
     padding: 10px;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    background-color: var(--white);
   }
 
   header .navbar.active {
