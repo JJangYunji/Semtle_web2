@@ -1,3 +1,7 @@
+@import "navbar.css";
+@import "statusbar.css";
+@import "notice.css";
+
 * {
   font-family: "Noto Sans KR", sans-serif;
   margin: 0;
@@ -34,75 +38,6 @@ body {
   --border: 1px solid rgba(0, 0, 0, 0.2);
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --box-shadow: 0 12px 12px rgba(0, 0, 0, 0.05);
-}
-
-header {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 15px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1000;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: var(--white);
-}
-
-header .logo {
-  color: var(--color-text);
-  font-size: 18px;
-  padding-left: 8px;
-  font-weight: bolder;
-}
-
-header .logo_img {
-  color: var(--purple);
-}
-
-header .navbar a {
-  font-size: 18px;
-  border-radius: 5px;
-  padding: 10px 14px;
-  color: var(--color-text);
-  display: flex;
-}
-
-header .navbar a:hover {
-  background-color: var(--purple);
-  color: var(--color-hover);
-}
-
-header .icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-header .icons i {
-  font-size: 18px;
-  color: var(--color-text);
-  text-align: center;
-  background-color: var(--purple);
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  line-height: 35px;
-  border-radius: 50%;
-}
-
-header .icons .sm-login {
-  background-color: var(--purple);
-  border-radius: 10px;
-  padding: 8px 15px;
-  color: var(--color-text);
-  font-size: 13px;
-  margin-right: 10px;
-}
-header .icons {
-  display: none;
 }
 
 .home {
