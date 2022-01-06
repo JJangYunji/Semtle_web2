@@ -10,12 +10,12 @@
   z-index: 1000;
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: var(--light-gray);
+  background-color: var(--white);
 }
 
 .statusbar a {
   color: var(--color-text);
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .statusbar span {
