@@ -33,7 +33,10 @@ body {
 
   --light-gray: #f5f5f5;
   --gray: #eeeeee;
-  --purple: #a69fef;
+
+  --purple: #faca40;
+  /*
+  --purple: #a69fef;*/
 
   --border: 1px solid rgba(0, 0, 0, 0.2);
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -75,21 +78,26 @@ body {
   padding: 25px;
 }
 
+.login .login-subject {
+  font-size: 13px;
+}
+
 .login .login-header {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: center;
   margin-bottom: 30px;
 }
 
 .login .login-header h3 {
   color: #6155d1;
-  font-size: 25px;
+  font-size: 21px;
   margin-right: 5px;
 }
 
 .login .login-header span {
   opacity: 80%;
+  font-size: 13px;
 }
 
 .login .login-content,
