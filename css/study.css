@@ -36,6 +36,7 @@
   flex-direction: row;
   padding: 0 25px;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .studyroom .studyroom-box {
@@ -43,9 +44,9 @@
   height: 100%;
   background-color: var(--white);
   margin-bottom: 20px;
-  border: var(--border);
   border-radius: 15px;
   box-shadow: var(--box-shadow);
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .study-content {
@@ -74,13 +75,13 @@
 
 .study-content-main {
   width: 100%;
-  font-size: 14px;
+  font-size: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top: var(--border);
   padding: 15px 0;
-  background-color: #eae8eb;
+  background-color: #f8e6e6;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
