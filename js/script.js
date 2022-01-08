@@ -49,3 +49,23 @@ var swiper = new Swiper(".book-box", {
     },
   },
 });
+
+var swiper = new Swiper(".bookboard-box", {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 20,
+  breakpoints: {
+    0: {
+      slidesPerView: 2.3,
+    },
+    640: {
+      slidesPerView: 2.3,
+    },
+    768: {
+      slidesPerView: 2.3,
+    },
+    1024: {
+      slidesPerView: 8,
+    },
+  },
+});
