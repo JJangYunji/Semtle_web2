@@ -3,6 +3,14 @@
 @import "notice.css";
 @import "board.css";
 
+@font-face {
+  font-family: "KOTRAHOPE";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   font-family: "Noto Sans KR", sans-serif;
   margin: 0;
@@ -58,7 +66,14 @@ body {
 }
 
 .home-main h3 {
-  font-size: 25px;
+  margin-top: 10px;
+  font-size: 35px;
+  font-family: "KOTRAHOPE";
+}
+
+.home-main img {
+  width: 150px;
+  height: 160px;
 }
 
 .login {
@@ -68,20 +83,28 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .login .login-box {
   width: 90%;
   height: 100%;
-  padding: 0 25px;
+  padding: 0 45px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login .login-main1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
 
 .login .login-subject {
   font-size: 13px;
+  width: 100%;
 }
 
 .login .login-header {
@@ -99,6 +122,11 @@ body {
 .login .login-header span {
   opacity: 80%;
   font-size: 13px;
+}
+
+.login .login-main2 img {
+  width: 80px;
+  height: 80px;
 }
 
 .calendar {
