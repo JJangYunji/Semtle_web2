@@ -8,6 +8,24 @@
   flex-direction: column;
 }
 
+.talkboard-head {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: var(--border);
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.talkboard-head span {
+  font-size: 13px;
+  padding: 5px 10px;
+  background-color: var(--purple);
+  border-radius: 25px;
+}
 .talkboard .talkboard-box {
   width: 85%;
   height: auto;
