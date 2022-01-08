@@ -9,11 +9,11 @@
 }
 
 .talkboard .talkboard-box {
-  width: 80%;
+  width: 85%;
   height: auto;
   padding: 15px 15px;
   background-color: var(--white);
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   border: var(--border);
   border-radius: 15px;
 }
@@ -37,8 +37,8 @@
 }
 
 .talk-content-head img {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   margin-right: 5px;
 }
 
@@ -50,14 +50,14 @@
 }
 
 .talk-content-head2 span:last-child {
-  font-size: 8px;
+  font-size: 10px;
   opacity: 80%;
 }
 
 .talk-content-main {
-  margin: 15px 0;
-  font-size: 11px;
-  font-weight: 200;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 12px;
 }
 
 .talk-content-foot {
@@ -65,7 +65,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  font-size: 10px;
+  font-size: 9px;
   opacity: 80%;
 }
 
