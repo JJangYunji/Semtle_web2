@@ -26,10 +26,11 @@
   background-color: var(--purple);
   border-radius: 25px;
 }
+
 .talkboard .talkboard-box {
   width: 85%;
   height: auto;
-  padding: 15px 15px;
+  padding: 15px;
   background-color: var(--white);
   margin-bottom: 20px;
   border: var(--border);
