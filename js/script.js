@@ -69,5 +69,3 @@ var swiper = new Swiper(".bookboard-box", {
     },
   },
 });
-
-/*calendar part*/
