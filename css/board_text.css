@@ -1,0 +1,24 @@
+.board_text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board_textbox {
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.board_text-input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  resize: none;
+  overflow-y: hidden;
+}
