@@ -27,3 +27,9 @@
   font-size: 16px;
   font-weight: bolder;
 }
+
+.statusbar #write_submit {
+  background-color: var(--purple);
+  padding: 5px 10px;
+  border-radius: 25px;
+}
