@@ -21,8 +21,24 @@ textarea {
   height: 300px;
   resize: none;
   overflow-y: hidden;
+  font-size: 13px;
 }
 
-.board_text label {
+.board_append {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+
+.board_append #write_submit {
+  background-color: var(--purple);
+  padding: 5px 10px;
+  border-radius: 25px;
+  font-size: 13px;
+}
+
+.board_append label {
+  font-size: 13px;
   color: #d09193;
 }
