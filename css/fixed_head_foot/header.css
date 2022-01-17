@@ -1,4 +1,5 @@
 header {
+  height: 55px;
   position: sticky;
   top: 0;
   left: 0;
@@ -31,14 +32,6 @@ header .icons {
   text-align: center;
 }
 
-header .icons i {
-  font-size: 20px;
-  color: var(--color-text);
-  text-align: center;
-  line-height: 35px;
-  margin: 0 10px;
-}
-
 header .icons {
   display: none;
 }
@@ -54,12 +47,6 @@ header .header-menu {
 }
 
 header #header-name {
-  font-size: 16px;
-  font-weight: bolder;
-}
-
-header #write_submit {
-  background-color: var(--purple);
-  padding: 5px 10px;
-  border-radius: 25px;
+  font-size: 22px;
+  font-family: "KOTRAHOPE";
 }
