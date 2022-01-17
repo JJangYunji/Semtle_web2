@@ -1,11 +1,12 @@
-@import "header.css";
-@import "notice.css";
-@import "board.css";
+@import "fixed_head_foot/header.css";
+@import "noticeboard/notice.css";
+@import "freeboard/board.css";
 @import "study.css";
 @import "book.css";
-@import "notice_text.css";
-@import "board_text.css";
-@import "footer.css";
+@import "noticeboard/notice_text.css";
+@import "freeboard/board_text.css";
+@import "fixed_head_foot/footer.css";
+@import "login.css";
 
 @font-face {
   font-family: "KOTRAHOPE";
@@ -84,7 +85,7 @@ body {
   height: 160px;
 }
 
-.login {
+.member {
   width: 100%;
   height: 100px;
   display: flex;
@@ -94,47 +95,47 @@ body {
   margin: 20px 0;
 }
 
-.login .login-box {
+.member .member-box {
   width: 90%;
   height: 100%;
   padding: 0 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px dotted rgba(0, 0, 0, 0.2);
+  border: 1px dashed rgba(0, 0, 0, 0.2);
   border-radius: 25px;
 }
 
-.login .login-main1 {
+.member .member-main1 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
 
-.login .login-subject {
+.member .member-subject {
   font-size: 13px;
   width: 100%;
 }
 
-.login .login-header {
+.member .member-header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.login .login-header h3 {
+.member .member-header h3 {
   color: #6155d1;
   font-size: 21px;
   margin-right: 5px;
 }
 
-.login .login-header span {
+.member .member-header span {
   opacity: 80%;
   font-size: 13px;
 }
 
-.login .login-main2 img {
+.member .member-main2 img {
   width: 80px;
   height: 80px;
 }
@@ -326,6 +327,7 @@ body {
   header #sm-login {
     position: fixed;
     right: 55px;
+    top: 15px;
   }
 
   header .navbar {
@@ -352,11 +354,13 @@ body {
   header .header-menu {
     position: fixed;
     right: 15px;
+    top: 22px;
   }
 
   header #header-name {
     position: fixed;
     right: 165px;
+    top: 19px;
   }
 }
 
