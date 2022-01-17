@@ -46,7 +46,7 @@
 
       <span id="header-name">글쓰기</span>
 
-      <input type="submit" id="write_submit" value="완료" />
+      <a href=""></a>
     </header>
 
     <section class="board_text">
@@ -62,16 +62,19 @@
               id="board_write"
               placeholder="내용을 입력해주세요"
             ></textarea>
-            <label
-              ><input
-                type="checkbox"
-                name="freeboard_check"
-                value="익명"
-                id="freeboard_check"
-                onclick="getfreeboardCheckboxValue(event)"
-              />
-              익명</label
-            >
+            <div class="board_append">
+              <label
+                ><input
+                  type="checkbox"
+                  name="freeboard_check"
+                  value="익명"
+                  id="freeboard_check"
+                  onclick="getfreeboardCheckboxValue(event)"
+                />
+                익명</label
+              >
+              <input type="submit" id="write_submit" value="완료" />
+            </div>
           </form>
         </div>
       </div>
