@@ -20,6 +20,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <script>
+      function getfreeboardCheckboxValue(event) {
+        let freeboard_result = "";
+        if (event.target.checked) {
+          freeboard_result = event.target.value;
+        }
+      }
+    </script>
   </head>
 
   <body>
@@ -44,10 +52,27 @@
     <section class="board_text">
       <div class="board_textbox">
         <div class="board_text-input">
-          <textarea
-            id="board_write"
-            placeholder="내용을 입력해주세요"
-          ></textarea>
+          <form
+            action="#"
+            name="freeboard_text"
+            accept-charset="utf-8"
+            method="#"
+          >
+            <textarea
+              id="board_write"
+              placeholder="내용을 입력해주세요"
+            ></textarea>
+            <label
+              ><input
+                type="checkbox"
+                name="freeboard_check"
+                value="익명"
+                id="freeboard_check"
+                onclick="getfreeboardCheckboxValue(event)"
+              />
+              익명</label
+            >
+          </form>
         </div>
       </div>
     </section>
