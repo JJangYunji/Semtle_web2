@@ -23,11 +23,23 @@
   </head>
 
   <body>
-    <section class="statusbar">
-      <a href="index.html"><i class="fas fa-times"></i></a>
-      <span>글쓰기</span>
+    <header>
+      <a href="javascript:history.back();" id="header-before"
+        ><i class="fas fa-times"></i
+      ></a>
+
+      <nav class="navbar">
+        <a href="notice.html">공지사항</a>
+        <a href="board.html">자유게시판</a>
+        <a href="study.html">스터디룸</a>
+        <a href="book.html">책 대여</a>
+        <a href="#">공모전</a>
+      </nav>
+
+      <span id="header-name">글쓰기</span>
+
       <input type="submit" id="write_submit" value="완료" />
-    </section>
+    </header>
 
     <section class="board_text">
       <div class="board_textbox">
