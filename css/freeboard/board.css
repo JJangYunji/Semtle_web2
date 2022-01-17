@@ -11,20 +11,25 @@
 .talkboard-head {
   width: 90%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
   border-bottom: var(--border);
   margin-bottom: 30px;
-  margin-top: 10px;
-  padding-right: 30px;
+  margin-top: 20px;
+  padding: 0 20px;
   padding-bottom: 10px;
 }
 
-.talkboard-head span {
+.talkboard-head_write {
   font-size: 13px;
   padding: 5px 10px;
   background-color: var(--purple);
   border-radius: 25px;
+}
+
+.talkboard-head_title {
+  font-size: 13px;
 }
 
 .talkboard .talkboard-box {
