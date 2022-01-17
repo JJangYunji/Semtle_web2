@@ -326,8 +326,9 @@ body {
 
   header #sm-login {
     position: fixed;
-    right: 55px;
-    top: 15px;
+    right: 60px;
+    top: 20.5px;
+    font-size: 22px;
   }
 
   header .navbar {
@@ -353,14 +354,21 @@ body {
 
   header .header-menu {
     position: fixed;
-    right: 15px;
-    top: 22px;
+    right: 20px;
+    top: 21px;
+    font-size: 22px;
   }
 
   header #header-name {
     position: fixed;
     right: 165px;
     top: 19px;
+  }
+
+  header #header-before {
+    position: fixed;
+    left: 20px;
+    top: 14px;
   }
 }
 
