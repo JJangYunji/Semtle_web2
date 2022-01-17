@@ -47,6 +47,13 @@ header .header-menu {
 }
 
 header #header-name {
-  font-size: 22px;
+  font-size: 20px;
   font-family: "KOTRAHOPE";
+}
+
+header .header-title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
