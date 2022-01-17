@@ -7,6 +7,7 @@
 @import "freeboard/board_text.css";
 @import "fixed_head_foot/footer.css";
 @import "login.css";
+@import "signup.css";
 
 @font-face {
   font-family: "KOTRAHOPE";
@@ -324,9 +325,10 @@ body {
     display: flex;
   }
 
-  header #sm-login {
+  header #sm-login,
+  header #home-bar {
     position: fixed;
-    right: 60px;
+    right: 58px;
     top: 20.5px;
     font-size: 22px;
   }
