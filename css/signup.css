@@ -18,7 +18,7 @@
 .join table {
   font-size: 16px;
   border-collapse: separate;
-  border-spacing: 10px;
+  border-spacing: 8px;
 }
 
 .join table tr,
@@ -38,8 +38,9 @@
 .join_btn {
   position: fixed;
   top: 440px;
-  font-size: 18px;
-  padding: 10px 20px;
+  font-size: 17px;
+  padding: 15px 20px;
   border-radius: 20px;
   background-color: var(--purple);
+  color: var(--color-text);
 }
