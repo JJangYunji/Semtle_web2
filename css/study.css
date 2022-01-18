@@ -29,21 +29,19 @@
 
 .studyroom-top {
   width: 100%;
-  height: 200px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   padding: 0 25px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 25px;
 }
 
 .studyroom .studyroom-box {
-  width: auto;
-  height: 100%;
+  width: 170px;
+  height: 220px;
   background-color: var(--white);
-  margin-bottom: 20px;
   border-radius: 15px;
   box-shadow: var(--box-shadow);
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -69,19 +67,22 @@
 }
 
 .study-content-head img {
-  width: 150px;
-  height: 60px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .study-content-main {
   width: 100%;
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top: var(--border);
   padding: 15px 0;
-  background-color: #f8e6e6;
+  background-color: var(--color-hover);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
