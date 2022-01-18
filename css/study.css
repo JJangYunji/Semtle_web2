@@ -39,7 +39,7 @@
 }
 
 .studyroom .studyroom-box {
-  width: 170px;
+  width: 160px;
   height: 220px;
   background-color: var(--white);
   border-radius: 15px;
@@ -76,7 +76,7 @@
 
 .study-content-main {
   width: 100%;
-  font-size: 14px;
+  font-size: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
