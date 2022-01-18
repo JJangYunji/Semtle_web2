@@ -27,7 +27,7 @@ textarea {
 .board_append {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   text-align: center;
 }
 
