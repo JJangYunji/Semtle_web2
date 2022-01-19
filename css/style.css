@@ -1,14 +1,14 @@
 @import "fixed_head_foot/header.css";
 @import "noticeboard/notice.css";
 @import "freeboard/board.css";
-@import "study.css";
-@import "book.css";
+@import "studyboard/study.css";
+@import "bookboard/book.css";
 @import "noticeboard/notice_text.css";
 @import "freeboard/board_text.css";
 @import "fixed_head_foot/footer.css";
-@import "login.css";
-@import "signup.css";
-@import "studyboard.css";
+@import "login_join/login.css";
+@import "login_join/signup.css";
+@import "studyboard/studyboard.css";
 
 @font-face {
   font-family: "KOTRAHOPE";
@@ -74,6 +74,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 55px;
 }
 
 .home-main h3 {
@@ -326,14 +327,6 @@ body {
     display: flex;
   }
 
-  header #sm-login,
-  header #home-bar {
-    position: fixed;
-    right: 58px;
-    top: 20.5px;
-    font-size: 22px;
-  }
-
   header .navbar {
     position: absolute;
     top: 100%;
@@ -353,25 +346,6 @@ body {
     padding: 8px;
     margin: 3px;
     font-size: 15px;
-  }
-
-  header .header-menu {
-    position: fixed;
-    right: 20px;
-    top: 21px;
-    font-size: 22px;
-  }
-
-  header #header-name {
-    position: fixed;
-    right: 165px;
-    top: 19px;
-  }
-
-  header #header-before {
-    position: fixed;
-    left: 20px;
-    top: 14px;
   }
 }
 
