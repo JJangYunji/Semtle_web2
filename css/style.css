@@ -9,6 +9,7 @@
 @import "login_join/login.css";
 @import "login_join/signup.css";
 @import "studyboard/studyboard.css";
+@import "login_join/info.css";
 
 @font-face {
   font-family: "KOTRAHOPE";
@@ -219,7 +220,7 @@ body {
 
 .notice .notice-box {
   width: 85%;
-  height: 30%;
+  height: 100%;
   background-color: var(--light-gray);
   border-radius: 25px;
   padding: 15px;
@@ -228,10 +229,6 @@ body {
   align-items: center;
   flex-direction: column;
   margin-bottom: 20px;
-}
-
-.notice .notice-box1 {
-  background-color: var(--light-gray);
 }
 
 .book .book-box {
@@ -253,30 +250,25 @@ body {
   justify-content: space-between;
   gap: 10px;
   cursor: pointer;
+  background: none;
 }
 
 .notice .notice-heading h3,
 .notice .notice-heading i {
   font-size: 13px;
-  line-height: 8px;
 }
 
 .notice .notice-content {
   font-size: 10px;
   display: none;
+  background: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.notice.active {
-  height: 300px;
-}
-.notice .notice-content1.active,
-.notice .notice-content2.active {
-  display: block;
-}
-
-.notice .notice-box1.active,
-.notice .notice-box2.active {
-  height: 50%;
+.notice .active .notice-content {
+  display: flex;
 }
 
 .book .slide {
