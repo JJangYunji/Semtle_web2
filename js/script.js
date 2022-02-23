@@ -17,12 +17,6 @@ for (var i = 0; i < notice.length; i++) {
   });
 }
 
-// const comment = document.querySelector(".talk-content-foot-etc");
-// const commentshow = document.querySelector(".talk-content-comment");
-// comment.onclick = () => {
-//   commentshow.classList.toggle("active");
-// };
-
 var swiper = new Swiper(".book-box", {
   loop: true,
   grabCursor: true,
