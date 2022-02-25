@@ -1,9 +1,26 @@
+.bookboard-head {
+  width: 100%;
+}
+.booksearch_form {
+  width: 100%;
+}
+
 .booksearch {
+  width: 90%;
   background-color: var(--purple);
   border-radius: 25px;
   margin-right: 5px;
   text-align: center;
   padding: 7px 0;
+}
+
+.takeoutbox-head {
+  width: 100%;
+  height: 100%;
+  background-color: #fcb7a3;
+  padding: 5px;
+  padding-left: 30px;
+  margin-top: 20px;
 }
 
 .takeoutbox {
@@ -13,7 +30,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: var(--white);
 }
 
@@ -51,7 +68,7 @@
 }
 
 .takeoutbox-info span {
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .takeoutbox-state {
@@ -59,7 +76,7 @@
 }
 
 .takeoutbox-state span {
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .state_text {
@@ -68,7 +85,8 @@
 
 .takeoutbox-btn button {
   background-color: var(--purple);
-  font-size: 12px;
+  font-size: 13px;
   border-radius: 15px;
   padding: 5px 10px;
+  color: var(--color-text);
 }
