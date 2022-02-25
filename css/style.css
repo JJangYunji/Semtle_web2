@@ -11,6 +11,7 @@
 @import "studyboard/studyboard.css";
 @import "login_join/info.css";
 @import "login_join/mypage.css";
+@import "bookboard/book.css";
 
 @font-face {
   font-family: "KOTRAHOPE";
