@@ -17,10 +17,11 @@
 .takeoutbox-head {
   width: 100%;
   height: 100%;
-  background-color: #ffcac9;
+  background-color: var(--light-gray);
   padding: 5px;
   padding-left: 30px;
   margin-top: 20px;
+  font-size: 13px;
 }
 
 .takeoutbox {
@@ -32,6 +33,7 @@
   flex-direction: row;
   margin-top: 40px;
   background-color: var(--white);
+  margin-bottom: 100px;
 }
 
 .takeoutbox-left {
@@ -59,11 +61,11 @@
 }
 
 .takeoutbox-title {
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 .takeoutbox-title span {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 800;
 }
 
