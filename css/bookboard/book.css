@@ -23,6 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-right: var(--border);
 }
 
 .takeoutbox-right {
