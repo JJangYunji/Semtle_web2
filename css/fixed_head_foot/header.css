@@ -63,7 +63,8 @@ header .header-menu {
 
 header #header-name {
   font-size: 20px;
-  font-family: "KOTRAHOPE";
+  font-weight: bold;
+  font-family: "Cafe24Oneprettynight";
 }
 
 header .header-title {
