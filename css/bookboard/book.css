@@ -1,17 +1,26 @@
 .bookboard-head {
   width: 100%;
 }
+
 .booksearch_form {
   width: 100%;
+  position: relative;
+}
+
+.booksearch_form i {
+  position: absolute;
+  right: 30px;
+  top: 12px;
+  opacity: 0.7;
 }
 
 .booksearch {
-  width: 90%;
+  width: 95%;
   background-color: var(--purple);
-  border-radius: 25px;
+  border-radius: 10px;
   margin-right: 5px;
   text-align: center;
-  padding: 7px 0;
+  padding: 10px 0;
 }
 
 .takeoutbox-head {
@@ -21,8 +30,7 @@
   padding: 7px 0;
   padding-left: 30px;
   margin-top: 20px;
-  font-size: 13px;
-  font-weight: bolder;
+  font-size: 12px;
 }
 
 .takeoutbox {
