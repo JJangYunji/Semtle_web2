@@ -11,11 +11,11 @@
   position: absolute;
   right: 30px;
   top: 12px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .booksearch {
-  width: 95%;
+  width: 100%;
   background-color: var(--purple);
   border-radius: 10px;
   margin-right: 5px;
