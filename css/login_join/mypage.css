@@ -26,10 +26,10 @@
 
 .mypage-heading-right span {
   color: gray;
-  font-size: 12px;
+  font-size: 11px;
   border-radius: 25px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 5px 7px;
+  padding: 5px 8px;
 }
 
 .mypage-heading-info {
@@ -78,7 +78,7 @@
 }
 
 .content-head {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .mypage-content {
@@ -89,7 +89,7 @@
   align-items: center;
   flex-direction: column;
   padding: 25px 20px;
-  margin-top: 30px;
+  margin-top: 27px;
 }
 
 .mypage-content a {
@@ -104,7 +104,7 @@
   align-items: center;
   flex-direction: row;
   background-color: var(--light-gray);
-  padding: 15px 20px;
+  padding: 13px 20px;
   border-radius: 15px;
   margin-bottom: 10px;
 }
@@ -137,7 +137,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 20px 3px;
+  margin: 20px 4px;
   font-size: 12px;
   background-color: var(--white);
   padding: 7px 5px;
