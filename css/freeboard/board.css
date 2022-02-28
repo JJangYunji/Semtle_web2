@@ -104,9 +104,18 @@
   font-size: 12px;
 }
 
-.talk-content-foot {
+.talk-content-footone {
   width: 100%;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 10px;
+  opacity: 80%;
+}
+
+.talk-content-foot {
+  width: 100%;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -114,26 +123,29 @@
   opacity: 80%;
 }
 
+.contentactive {
+  display: flex;
+}
+
 .talk-content-foot-writer span {
   margin-right: 5px;
 }
 
 .talk-content-foot-etc {
-  width: 100%;
+  width: auto;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   margin-bottom: 5px;
-}
-.talk-content-foot-etc span {
   padding: 4px 8px;
   border: var(--border);
   border-radius: 25px;
   background-color: var(--light-gray);
 }
 
-.talk-content-foot-etc .talk-comment {
-  margin-left: 7px;
+.commenttext {
+  margin-left: 2px;
+  margin-right: 5px;
 }
 
 .talk-content-comment {
@@ -152,9 +164,31 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-bottom: 10px;
+  border-bottom: var(--border);
+  padding: 8px 0;
 }
 
-.talk-content-commentbox:last-child {
-  margin-bottom: 0;
+.commentwrite {
+  width: 100%;
+  height: 50px;
+  background-color: var(--white);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.commentwrite-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.commentbtn {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  background-color: var(--purple);
+  font-size: 7px;
+  padding: 1px 3px;
+  border-radius: 5px;
 }
