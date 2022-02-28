@@ -80,6 +80,10 @@
   margin-top: 30px;
 }
 
+.mypage-content a {
+  width: 100%;
+}
+
 .mypage-content-icon {
   width: 100%;
   height: 100%;
@@ -99,4 +103,49 @@
 
 .mypage-content-icon-left span {
   font-weight: 500;
+}
+
+.mypagebookbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  background-color: var(--white);
+  margin-top: 100px;
+  padding: 30px 0;
+}
+
+.mybook {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 10px;
+  font-size: 10px;
+}
+
+.mybook-img {
+  margin-bottom: 7px;
+}
+
+.mybook-img img {
+  width: 130px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.mybook-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.bookdate {
+  margin-right: 5px;
 }
