@@ -10,20 +10,31 @@
   margin-top: 100px;
   border-top: var(--border);
   border-bottom: var(--border);
+  position: relative;
 }
 
 .mypage-heading-right {
+  width: 33.3%;
+  height: 100%;
   display: flex;
-  position: fixed;
-  right: 30px;
-  top: 125px;
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mypage-heading-right span {
   color: gray;
   font-size: 13px;
   border-radius: 25px;
-  border: var(--border);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 5px 7px;
 }
+
 .mypage-heading-info {
+  width: 33.3%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +47,7 @@
 }
 
 .mypage-heading-info span {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .mypage-box {
@@ -62,7 +73,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px 0;
+  padding: 13px 0;
+  font-size: 13px;
 }
 
 .content-head {
@@ -103,6 +115,7 @@
 
 .mypage-content-icon-left span {
   font-weight: 500;
+  font-size: 13px;
 }
 
 .mypagebookbox {
@@ -112,8 +125,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 15px;
-  background-color: var(--white);
+  background-color: var(--light-gray);
   margin-top: 100px;
   padding: 30px 0;
 }
@@ -126,7 +138,10 @@
   align-items: center;
   flex-direction: column;
   margin: 20px 10px;
-  font-size: 10px;
+  font-size: 12px;
+  background-color: var(--white);
+  padding: 7px 5px;
+  border-radius: 15px;
 }
 
 .mybook-img {
@@ -134,8 +149,8 @@
 }
 
 .mybook-img img {
-  width: 130px;
-  height: 150px;
+  width: 100px;
+  height: 120px;
   object-fit: cover;
 }
 
@@ -144,8 +159,4 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-}
-
-.bookdate {
-  margin-right: 5px;
 }
