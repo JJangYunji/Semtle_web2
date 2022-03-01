@@ -34,13 +34,14 @@ textarea {
 
 .board_append #write_submit {
   background-color: var(--purple);
-  padding: 8px 15px;
-  border-radius: 20px;
-  font-size: 13px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 14px;
   margin-left: 10px;
+  color: var(--color-text);
 }
 
 #freeboard_check {
-  font-size: 13px;
+  font-size: 14px;
   color: #d09193;
 }
