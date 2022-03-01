@@ -27,7 +27,7 @@ textarea {
 
 .board_append {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   text-align: center;
 }
@@ -36,10 +36,11 @@ textarea {
   background-color: var(--purple);
   padding: 8px 15px;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 13px;
+  margin-left: 10px;
 }
 
-.board_append label {
-  font-size: 14px;
+#freeboard_check {
+  font-size: 13px;
   color: #d09193;
 }
