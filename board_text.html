@@ -63,16 +63,14 @@
               placeholder="내용을 입력해주세요"
             ></textarea>
             <div class="board_append">
-              <label
-                ><input
-                  type="checkbox"
-                  name="freeboard_check"
-                  value="익명"
-                  id="freeboard_check"
-                  onclick="getfreeboardCheckboxValue(event)"
-                />
-                익명</label
-              >
+              <input
+                type="checkbox"
+                name="freeboard_check"
+                value="익명"
+                id="freeboard_check"
+                onclick="getfreeboardCheckboxValue(event)"
+              />
+              <label for="" id="freeboard_check">익명</label>
               <input type="submit" id="write_submit" value="완료" />
             </div>
           </form>
