@@ -20,6 +20,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+
+    <script>
+      function getfreeboardCheckboxValue(event) {
+        let freeboard_result = "";
+        if (event.target.checked) {
+          freeboard_result = event.target.value;
+        }
+      }
+    </script>
   </head>
 
   <body>
@@ -113,8 +122,18 @@
               </div>
               <form action="" class="commentwrite-form">
                 <textarea name="" class="commentwrite"></textarea>
-                <button class="commentbtn">작성</button>
               </form>
+              <div class="commentwrite_btn">
+                <input
+                  type="checkbox"
+                  name="freeboard_check"
+                  value="익명"
+                  id="freeboard_check"
+                  onclick="getfreeboardCheckboxValue(event)"
+                />
+                <label for="" id="freeboard_check">익명</label>
+                <button class="commentbtn">작성</button>
+              </div>
             </div>
           </div>
         </div>
