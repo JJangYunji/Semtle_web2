@@ -38,6 +38,15 @@
   font-size: 13px;
 }
 
+.joinform span {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+
 .join_input label {
   position: absolute;
   top: 0;
