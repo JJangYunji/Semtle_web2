@@ -46,52 +46,75 @@
 
     <div class="join">
       <form action="#" class="joinform">
-        <table align="center">
-          <tr>
-            <td align="center"><label class="info_must">*</label><label>이름</label></td>
-            <td class="inputbox"><span>김대현</span></td>
-          </tr>
+        <div class="join_input">
+          <label for="id">아이디</label>
+          <span>darren</span>
+        </div>
 
-          <tr>
-            <td align="center"><label class="info_must">*</label><label>학번</label></td>
-            <td class="inputbox"><input type="number" name="studentid" /></td>
-          </tr>
+        <div class="join_input">
+          <label for="pw">비밀번호</label>
+          <input
+            type="password"
+            id="pw"
+            placeholder="비밀번호를 입력해주세요"
+          />
+        </div>
 
-          <tr>
-            <td align="center"><label class="info_must">*</label><label>학년</label></td>
-            <td class="inputbox">
-              <select name="grade" id="#">
-                <option value="1gr">1</option>
-                <option value="2gr">2</option>
-                <option value="3gr">3</option>
-                <option value="4gr">4</option>
-              </select>
-            </td>
-          </tr>
+        <div class="join_input">
+          <label for="pw_check">비밀번호 확인</label>
+          <input
+            type="password"
+            id="pw_check"
+            placeholder="비밀번호를 한 번 더 입력해주세요"
+          />
+        </div>
 
-          <tr>
-            <td align="center"><label class="info_must">*</label><label>아이디</label></td>
-            <td class="inputbox"><input type="text" name="id" /></td>
-          </tr>
+        <div class="join_input">
+          <label for="nickname">닉네임</label>
+          <input
+            type="text"
+            id="nickname"
+            placeholder="닉네임을 입력해주세요"
+          />
+        </div>
 
-          <tr>
-            <td align="center">
-                <label class="info_must">*</label><label>비밀번호</label>
-            </td>
-            <td class="inputbox"><input type="password" name="pw" /></td>
-          </tr>
+        <div class="join_input">
+          <label for="name">이름</label>
+          <span>김대현</span>
+        </div>
 
-          <tr>
-            <td align="center">
-                <label class="info_must">*</label><label>닉네임</label>
-            </td>
-            <td class="inputbox"><input type="text" name="nickname" /></td>
-          </tr>
+        <div class="join_input">
+          <label for="number">학번</label>
+          <input type="number" id="number" placeholder="학번을 입력해주세요" />
+        </div>
 
-        </table>
-        <input type="submit" class="join_btn" value="수정하기">
-        </input>
-        
+        <div class="join_input">
+          <label for="grade">학년</label>
+          <select id="grade">
+            <option value="1gr">1</option>
+            <option value="2gr">2</option>
+            <option value="3gr">3</option>
+            <option value="4gr">4</option>
+          </select>
+        </div>
+
+        <div class="join_input">
+          <label for="email">이메일</label>
+          <input type="email" id="email" placeholder="이메일을 입력해주세요" />
+        </div>
+
+        <div class="join_input">
+          <label for="phone">핸드폰 번호</label>
+          <input
+            type="tel"
+            id="phone"
+            placeholder="핸드폰 번호를 입력해주세요"
+          />
+        </div>
+
+        <div class="join_input join_btnbox">
+          <button class="join_btn">수정하기</button>
+        </div>
       </form>
     </div>
   </body>
