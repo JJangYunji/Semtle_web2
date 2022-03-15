@@ -42,6 +42,7 @@
 
 a {
   color: var(--color-text);
+  text-decoration: none;
 }
 
 body {
@@ -323,6 +324,31 @@ body {
   color: var(--black);
 }
 
+/* @media screen and (min-width: 768px) {
+  header .navbar {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .home {
+    margin-top: 10%;
+  }
+
+  body {
+    margin-top: 5%;
+  }
+
+  #header-before,
+  .icons,
+  #header-name {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header .icons {
     display: flex;
@@ -348,7 +374,7 @@ body {
     margin: 3px;
     font-size: 15px;
   }
-}
+} */
 
 /*calendar part*/
 #calendar {
