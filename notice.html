@@ -23,7 +23,7 @@
   </head>
 
   <body>
-    <header>
+    <!-- <header>
       <a href="javascript:history.back();" id="header-before"
         ><i class="fas fa-angle-left"></i
       ></a>
@@ -42,6 +42,39 @@
         <a href="index.html"><i class="fas fa-home" id="home-bar"></i></a>
         <i class="fas fa-bars header-menu" id="menu-bars"></i>
       </div>
+    </header> -->
+
+    <header class="navbar">
+      <div class="navbar_logo">
+        <img src="images/mainlogo.png" alt="" />
+        <a href="index.html"><span>셈틀쟁이</span></a>
+      </div>
+
+      <div class="navbar_mobilelogo">
+        <a href="javascript:history.back();" id="header-before"
+          ><i class="fas fa-angle-left"></i
+        ></a>
+        <span class="mobile_title">공지사항</span>
+      </div>
+
+      <ul class="navbar_menu">
+        <li class="current"><a href="notice.html">공지사항</a></li>
+        <li><a href="board.html">자유게시판</a></li>
+        <li><a href="study.html">스터디룸</a></li>
+        <li><a href="book.html">책 대여</a></li>
+        <li><a href="#">공모전</a></li>
+      </ul>
+
+      <div class="navbar_pcicon">
+        <a href="signup.html"><button>Sign Up</button></a>
+      </div>
+
+      <ul class="navbar_icon">
+        <li>
+          <a href=""><i class="fas fa-user" id="sm-login"></i></a>
+        </li>
+        <li><i class="fas fa-bars header-menu" id="menu-bars"></i></li>
+      </ul>
     </header>
 
     <section class="heading">
