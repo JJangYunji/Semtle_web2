@@ -1,5 +1,5 @@
 const menu = document.querySelector("#menu-bars");
-const navbar = document.querySelector(".navbar");
+const navbar = document.querySelector(".navbar_menu");
 
 menu.onclick = () => {
   menu.classList.toggle("fa-times");
