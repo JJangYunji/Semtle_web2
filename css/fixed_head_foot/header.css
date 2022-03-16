@@ -1,15 +1,28 @@
+.header {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: auto;
   background-color: var(--light-gray);
   padding: 15px 25px;
+  position: absolute;
 }
 
 .navbar_logo {
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar_logo span {
   font-family: "KOTRAHOPE";
 }
 
@@ -21,16 +34,19 @@
 .navbar_menu {
   display: flex;
   list-style: none;
+  justify-content: center;
 }
 
 .navbar_menu li {
   padding: 8px 18px;
   font-size: 18px;
+  margin: 0 5px;
+  text-align: center;
 }
 
 .navbar_menu li:hover {
   padding: 8px 18px;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: var(--purple);
   color: var(--color-hover);
 }
@@ -44,7 +60,7 @@
   font-size: 16px;
   background-color: var(--purple);
   border-radius: 10px;
-  padding: 3px 10px;
+  padding: 5px 10px;
 }
 
 .navbar_icon {
@@ -62,6 +78,24 @@
   padding: 8px 5px;
 }
 
+.navbar_menu .current {
+  padding: 8px 18px;
+  border-radius: 10px;
+  background-color: var(--purple);
+  color: var(--color-hover);
+}
+
+.navbar_mobilelogo {
+  display: none;
+}
+
+#sm-login,
+#home-bar {
+  position: absolute;
+  top: 15px;
+  right: 36px;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -69,14 +103,22 @@
     background-color: var(--white);
   }
 
+  .navbar_logo {
+    display: none;
+  }
+
   .navbar_menu {
+    display: none;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+    background-color: var(--white);
   }
 
   .navbar_menu li {
+    font-size: 15px;
     width: 100%;
-    text-align: center;
   }
 
   .navbar_pcicon {
@@ -86,8 +128,35 @@
   .navbar_icon {
     display: flex;
   }
-}
 
+  .navbar_menu.active {
+    display: flex;
+    margin-top: 50px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .navbar_logo {
+    font-size: 18px;
+  }
+
+  .navbar_mobilelogo {
+    font-size: 26px;
+    position: relative;
+    top: 7px;
+  }
+
+  .navbar_mobilelogo {
+    display: flex;
+  }
+
+  .mobile_title {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    font-family: "GangwonEdu_OTFBoldA";
+  }
+}
 /* header {
   height: 55px;
   position: fixed;
