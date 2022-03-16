@@ -11,7 +11,7 @@
   align-items: center;
   height: auto;
   background-color: var(--light-gray);
-  padding: 15px 25px;
+  padding: 15px 15px;
   position: absolute;
 }
 
@@ -93,7 +93,13 @@
 #home-bar {
   position: absolute;
   top: 15px;
-  right: 36px;
+  right: 30px;
+}
+
+#menu-bars {
+  position: absolute;
+  top: 15px;
+  right: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -101,6 +107,7 @@
     flex-direction: column;
     align-items: flex-start;
     background-color: var(--white);
+    padding: 0 15px;
   }
 
   .navbar_logo {
@@ -153,7 +160,7 @@
     font-size: 20px;
     position: relative;
     top: 10px;
-    left: 150px;
+    left: 100px;
     font-family: "GangwonEdu_OTFBoldA";
   }
 }
