@@ -48,7 +48,6 @@
   width: 100%;
   padding: 8px 18px;
   font-size: 18px;
-  margin: 0 5px;
   text-align: center;
 }
 
@@ -75,9 +74,8 @@
 
 .navbar_icon {
   display: none;
-  position: absolute;
-  right: 32px;
-  justify-content: center;
+  width: auto;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   list-style: none;
@@ -97,27 +95,19 @@
 
 .navbar_mobilelogo {
   display: none;
-}
-
-#sm-login,
-#home-bar {
-  position: absolute;
-  top: 15px;
-  right: 30px;
-}
-
-#menu-bars {
-  position: absolute;
-  top: 15px;
-  right: 0;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--white);
-    padding: 0 15px;
   }
 
   .navbar_logo {
@@ -129,16 +119,21 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    z-index: 100;
     background-color: var(--white);
   }
 
   .navbar_menu a {
     width: 100%;
   }
+
   .navbar_menu li {
     font-size: 15px;
     width: 100%;
+    padding: 12px 18px;
+  }
+
+  .navbar_menu li:hover {
+    padding: 12px 18px;
   }
 
   .navbar_pcicon {
@@ -152,17 +147,10 @@
   .navbar_menu.active {
     display: flex;
     margin-top: 50px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 
   .navbar_logo {
     font-size: 18px;
-  }
-
-  .navbar_mobilelogo {
-    font-size: 26px;
-    position: relative;
-    top: 7px;
   }
 
   .navbar_mobilelogo {
@@ -171,10 +159,28 @@
 
   .mobile_title {
     font-size: 20px;
-    position: relative;
-    top: 10px;
-    left: 100px;
     font-family: "GangwonEdu_OTFBoldA";
+    position: absolute;
+    left: 200px;
+    top: 35px;
+  }
+
+  #sm-login {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+  }
+
+  #menu-bars {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+  }
+
+  #header-before {
+    position: absolute;
+    left: 10px;
+    top: 27px;
   }
 }
 /* header {
