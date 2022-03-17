@@ -120,6 +120,7 @@
     align-items: center;
     width: 100%;
     background-color: var(--white);
+    z-index: 100;
   }
 
   .navbar_menu a {
@@ -146,7 +147,7 @@
 
   .navbar_menu.active {
     display: flex;
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   .navbar_logo {
@@ -161,26 +162,26 @@
     font-size: 20px;
     font-family: "GangwonEdu_OTFBoldA";
     position: absolute;
-    left: 200px;
-    top: 35px;
+    left: 150px;
+    top: 30px;
   }
 
   #sm-login {
     position: absolute;
-    right: 40px;
+    right: 43px;
     top: 30px;
   }
 
   #menu-bars {
     position: absolute;
-    right: 10px;
+    right: 13px;
     top: 30px;
   }
 
   #header-before {
     position: absolute;
-    left: 10px;
-    top: 27px;
+    left: 13px;
+    top: 22px;
   }
 }
 /* header {
