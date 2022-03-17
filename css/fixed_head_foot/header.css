@@ -11,7 +11,7 @@
   align-items: center;
   height: auto;
   background-color: var(--light-gray);
-  padding: 15px 15px;
+  padding: 15px 25px;
   position: absolute;
 }
 
@@ -20,6 +20,7 @@
   align-items: center;
   font-size: 28px;
   font-weight: bold;
+  width: auto;
 }
 
 .navbar_logo span {
@@ -35,9 +36,16 @@
   display: flex;
   list-style: none;
   justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.navbar_menu a {
+  width: auto;
 }
 
 .navbar_menu li {
+  width: 100%;
   padding: 8px 18px;
   font-size: 18px;
   margin: 0 5px;
@@ -54,6 +62,8 @@
 .navbar_pcicon {
   display: flex;
   font-size: 24px;
+  width: auto;
+  justify-content: flex-end;
 }
 
 .navbar_pcicon button {
@@ -123,6 +133,9 @@
     background-color: var(--white);
   }
 
+  .navbar_menu a {
+    width: 100%;
+  }
   .navbar_menu li {
     font-size: 15px;
     width: 100%;
