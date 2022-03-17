@@ -70,6 +70,7 @@
   background-color: var(--purple);
   border-radius: 10px;
   padding: 5px 10px;
+  cursor: pointer;
 }
 
 .navbar_icon {
@@ -130,11 +131,11 @@
   .navbar_menu li {
     font-size: 15px;
     width: 100%;
-    padding: 12px 18px;
+    padding: 8px 18px;
   }
 
   .navbar_menu li:hover {
-    padding: 12px 18px;
+    padding: 8px 18px;
   }
 
   .navbar_pcicon {
@@ -176,6 +177,7 @@
     position: absolute;
     right: 13px;
     top: 30px;
+    cursor: pointer;
   }
 
   #header-before {
